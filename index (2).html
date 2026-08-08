@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Атмосфера MARE | MARE</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#061923;color:#f7f1e5;font-family:Georgia,serif;min-height:100vh}
+nav{height:76px;display:flex;align-items:center;justify-content:space-between;padding:0 5%;border-bottom:1px solid #28424a;background:#061923;position:sticky;top:0;z-index:3}
+.logo{font-size:25px;letter-spacing:7px}nav a{color:#d8c89d;text-decoration:none;font:12px Arial,sans-serif;letter-spacing:1px}
+main{min-height:calc(100vh - 126px);display:flex;align-items:center;justify-content:center;padding:55px 5%}
+.wrap{width:min(1250px,100%);display:grid;grid-template-columns:1.4fr .8fr;gap:45px;align-items:center}
+.photo{border-radius:18px;overflow:hidden;border:1px solid #775f31;box-shadow:0 30px 90px rgba(0,0,0,.45);background:#0b2b35}
+.photo img{width:100%;display:block;transition:transform 1.2s ease}.photo:hover img{transform:scale(1.035)}
+.kicker{color:#d7bd78;font:11px Arial,sans-serif;letter-spacing:4px;text-transform:uppercase}
+h1{font-size:clamp(40px,5vw,75px);font-weight:400;line-height:1;margin:18px 0}
+p{font-size:19px;line-height:1.7;color:#c8d3d0}.price{font:22px Arial;color:#d9bd73;margin:28px 0}
+.btn{display:inline-block;padding:14px 23px;background:#d9bd73;color:#071b24;text-decoration:none;font:600 12px Arial;letter-spacing:1px}
+footer{height:50px;display:flex;justify-content:center;align-items:center;border-top:1px solid #28424a;color:#829a9d;font:11px Arial}
+.arrows{display:flex;gap:12px;margin-top:25px}.arrows a{border:1px solid #52686b;padding:10px 15px;color:#eee;text-decoration:none}
+@media(max-width:800px){.wrap{grid-template-columns:1fr}main{padding:35px 5%}nav{height:65px}h1{font-size:45px}}
+</style></head>
+<body>
+<nav><a class="logo" href="index.html">MARE</a><div><a href="index.html">ГЛАВНАЯ</a></div></nav>
+<main><div class="wrap">
+<div class="photo"><img src="images/atmosphere.jpg" alt="Уют, красота и море"></div>
+<div><div class="kicker">Ресторан у моря · MARE</div><h1>Уют, красота и море</h1><p>Тёплый свет, панорамный вид, свежие блюда и вечерний берег.</p>
+<a class="btn" href="mailto:booking@mare.example">ЗАБРОНИРОВАТЬ СТОЛИК</a>
+<div class="arrows"><a href="mussels.html">← Назад</a><a href="index.html">Далее →</a></div></div>
+</div></main><footer>MARE · SEAFOOD RESTAURANT · МОРЕ В КАЖДОМ БЛЮДЕ</footer>
+</body></html>
